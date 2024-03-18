@@ -154,7 +154,15 @@ let user = {
   isloggedin: true,
 };
 
-//--
-let array = [1,2,3,4,5];
-for (let item of array)
-console.log(item);
+let calculateAge = (birthyaer) =>2024 - birthyaer > 18 ? "სრულწლოვანი" : "არასრულწლოვანი";
+// function calculateAge(birthyaer){
+//   let resultCalculate= 2024-birthyaer
+//   if(resultCalculate>=18){
+//     return 'srulwlovani'
+//   }else{
+//     return 'arasrulwlovani'
+//   }
+// }
+
+let resultCalculate=calculateAge(2000)
+console.log(resultCalculate);
